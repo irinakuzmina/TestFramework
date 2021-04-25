@@ -1,0 +1,6 @@
+{
+   "dev": {
+      "database": "No need in database url for connection to sql server. Pyodbc is used",
+      "test_data_folder": "C:/dimex/TestFramework/TestSuite/test_data"
+   }
+}
