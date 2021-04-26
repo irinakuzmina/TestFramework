@@ -7,7 +7,8 @@ class Connector:
         conn = pyodbc.connect('Driver={SQL Server};'
                               'Server=EPBYMINL005C\SQLEXPRESS;'
                               'Database=TRN;'
-                              'Trusted_Connection=yes;')
+                              'uid=sa;' 
+                              'pwd=Qwerty123;')
         self.cursor = conn.cursor()
 
     def execute(self, query):
