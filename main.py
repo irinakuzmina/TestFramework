@@ -6,8 +6,8 @@ from test_processor import TestProcessor
 
 
 def run():
-   #config = Configurator(argv[1])
-    config = Configurator('dev')
+    config = Configurator(argv[1])
+    #config = Configurator('dev')
     database_url = config.get_database_url()
     database_folder = config.get_test_data_folder()
     # print(database_url)
