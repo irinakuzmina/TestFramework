@@ -11,7 +11,7 @@ pipeline {
       stage('List') {
         steps{      
           bat("dir /B ${JENKINS_HOME}")
-          bat 'python tests.py'
+
 
         }
 
