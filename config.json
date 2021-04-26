@@ -1,6 +1,7 @@
 {
    "dev": {
       "database": "No need in database url for connection to sql server. Pyodbc is used",
-      "test_data_folder": "C:/Users/Iryna_Kuzmina/Documents/TestFramework/TestSuite/test_data"
+      "test_data_folder": "C:/Users/Iryna_Kuzmina/Documents/TestFramework/test_data"
    }
 }
+
